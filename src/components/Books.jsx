@@ -6,6 +6,7 @@ const Books = () => {
   );
 
   console.log(data);
+  
   const books = data?.AllBooks || [];
   return (
     <div>
